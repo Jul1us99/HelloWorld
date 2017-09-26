@@ -6,7 +6,8 @@ public class Primetester {
 		
     System.out.println(isPrime(4));
 
-     }
+	}
+	
 	
 private static boolean isPrime(int n){
 	
@@ -25,6 +26,7 @@ private static boolean isPrime(int n){
 	     
 	      i = i+1;
 	    }
+	 
 	  }
 	  
 	  return prime;
