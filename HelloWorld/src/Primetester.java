@@ -3,11 +3,12 @@ public class Primetester {
 	 
 	public static void main(String[] args) {
 	
-
+		
+    System.out.println(isPrime(4));
 
      }
 	
-private boolean isPrime(int n){
+private static boolean isPrime(int n){
 	
 	boolean prime = true;
 	int i = 2;
